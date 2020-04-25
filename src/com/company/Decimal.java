@@ -30,4 +30,12 @@ public class Decimal {
     public int dec(){
         return decimal;
     }
+
+    @Override
+    public String toString() {
+        return "The binary output for " +
+                userInput +
+                " is " +
+                decimal;
+    }
 }
